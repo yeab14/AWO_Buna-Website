@@ -40,7 +40,7 @@
         </script>
     
 
-        <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="./assets/images/homepage/coff.png" type="image/x-icon" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
         <link rel="stylesheet" href="./css/tailwind-build.css" />
         <link rel="stylesheet" href="./css/index.css" />
@@ -150,16 +150,13 @@
                 
                 
                 
-                <a
-                    href="https://"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    class="tw-flex tw-rounded-sm tw-bg-secondary tw-text-medium tw-p-3 
-                           tw-px-[20px] tw-w-fit tw-text-white tw-transition-colors tw-duration-[0.3s] 
-                           hover:tw-bg-primary hover:tw-text-black"
-                >
-                    Discover Your Perfect Brew
-                </a>
+                <button
+                type="submit"
+                class="btn tw-mt-5 tw-bg-gold tw-text-black tw-transition-all tw-duration-[0.3s] hover:tw-translate-x-2 hover:tw-bg-darkgold"
+            >
+                <span>Discover Your Perfect Brew &nbsp;</span>
+                <i class="bi bi-arrow-right"></i>
+            </button>
             </div>
             
             </div>
@@ -334,115 +331,111 @@
     
 
         <section
-            class="tw-flex tw-w-full tw-place-content-center tw-place-items-center tw-gap-[10%] tw-overflow-hidden tw-bg-[#28282859] tw-p-4 tw-px-[10%] max-md:tw-flex-col tw-mt-5"
+            class="tw-flex tw-w-full tw-place-content-center tw-place-items-center tw-gap-[10%] tw-overflow-hidden tw-p-4 tw-px-[10%] max-md:tw-flex-col tw-mt-5"
             id="reservation"
         >
             <div
                 class="tw-flex tw-h-[350px] tw-w-[350px] tw-overflow-hidden tw-rounded-md max-md:tw-hidden"
             >
                 <img
-                    src="./assets/images/homepage/restaurant.jpg"
+                    src="./assets/images/homepage/order.jpg"
                     alt="restaurant"
                     class="tw-w-full tw-object-cover"
                 />
             </div>
             <div class="tw-mt-[5%] tw-flex tw-h-full tw-flex-col tw-gap-[5%]">
                 <div class="tw-flex tw-flex-col tw-gap-2">
-                    <h2
-                        class="primary-text-color tw-text-3xl tw-font-medium max-md:tw-text-xl"
-                    >
-                        Reservation
-                    </h2>
-                    <h3 class="tw-text-5xl max-md:tw-text-3xl">
-                        Book your table
-                    </h3>
+                    <h2 class="tw-text-xl tw-italic tw-text-black">  Awo Coffee, Just a Click Away</h2>
+                    <h3 class="primary-text-color tw-text-4xl tw-font-semibold tw-text-black">  Get Your Favorite Coffee Delivered</h3>
                 </div>
-                <form
-                    class="tw-mt-4 tw-flex tw-max-w-[350px] tw-flex-col tw-gap-3"
-                >
+                <form class="tw-mt-4 tw-flex tw-max-w-[400px] tw-flex-col tw-gap-3">
                     <div class="tw-flex tw-flex-col tw-gap-4">
+                        <!-- Name -->
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-300">Name</div>
+                            <div class="tw-text-gray-400">Full Name</div>
                             <input
                                 type="text"
-                                class="input"
-                                maxlength="10"
+                                class="input tw-bg-black tw-border-gold tw-text-white tw-placeholder-gray-400"
+                                maxlength="50"
                                 required
-                                placeholder="name"
+                                placeholder="Your Name"
                             />
                         </div>
+                        <!-- Phone -->
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-300">Phone</div>
+                            <div class="tw-text-gray-400">Phone</div>
                             <input
                                 type="text"
-                                class="input"
+                                class="input tw-bg-black tw-border-gold tw-text-white tw-placeholder-gray-400"
                                 required
-                                placeholder="phone"
+                                placeholder="Your Phone"
                             />
                         </div>
+                        <!-- Email -->
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-300">Email</div>
+                            <div class="tw-text-gray-400">Email</div>
                             <input
                                 type="email"
-                                class="input"
+                                class="input tw-bg-black tw-border-gold tw-text-white tw-placeholder-gray-400"
                                 required
-                                placeholder="email"
+                                placeholder="Your Email"
                                 id="email"
                             />
                         </div>
                     </div>
-
+        
+                    <!-- Coffee Order -->
                     <div class="tw-flex tw-gap-4">
                         <div class="tw-flex tw-w-full tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-300">Time</div>
-                            <select
-                                name="timings"
-                                id="timings"
-                                class="input"
-                            ></select>
+                            <div class="tw-text-gray-400">Choose Your Coffee</div>
+                            <select name="coffeeType" id="coffeeType" class="input tw-bg-black tw-border-gold tw-text-white tw-placeholder-gray-400">
+                                <option value="espresso">250 g</option>
+                                <option value="latte">500 g</option>
+                                <option value="cappuccino">1000 g</option>
+                            </select>
                         </div>
+        
+                        <!-- Quantity -->
                         <div class="tw-flex tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-300">Date</div>
-                            <input
-                                type="date"
-                                class="input"
-                                required
-                                placeholder="date"
-                                id="date"
-                            />
-                        </div>
-                    </div>
-
-                    <div class="tw-flex tw-w-full tw-gap-4 max-md:tw-flex-col">
-                        <div class="tw-flex tw-w-full tw-flex-col tw-gap-1">
-                            <div class="tw-text-gray-300">People</div>
+                            <div class="tw-text-gray-400">Quantity</div>
                             <input
                                 type="number"
-                                value="2"
-                                min="0"
-                                max="15"
-                                class="input"
+                                value="1"
+                                min="1"
+                                max="10"
+                                class="input tw-bg-black tw-border-gold tw-text-white tw-placeholder-gray-400"
                             />
                         </div>
                     </div>
-
+        
+                    <!-- Delivery Time -->
+                    <div class="tw-flex tw-gap-4">
+                        <div class="tw-flex tw-w-full tw-flex-col tw-gap-1">
+                            <div class="tw-text-gray-400">Preferred Time</div>
+                            <input
+                                type="time"
+                                class="input tw-bg-black tw-border-gold tw-text-white tw-placeholder-gray-400"
+                                required
+                            />
+                        </div>
+                    </div>
+        
+                    <!-- Submit Button -->
                     <button
                         type="submit"
-                        class="btn tw-ml-auto tw-mt-5 tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2"
+                        class="btn tw-ml-auto tw-mt-5 tw-bg-gold tw-text-black tw-transition-all tw-duration-[0.3s] hover:tw-translate-x-2 hover:tw-bg-darkgold"
                     >
-                        <span>Book table</span>
+                        <span>Place Order &nbsp;</span>
                         <i class="bi bi-arrow-right"></i>
                     </button>
                 </form>
-                <div
-                    class="tw-mt-4 tw-flex tw-flex-col tw-gap-2 tw-text-center"
-                >
-                    <h3 class="tw-text-xl">To book call</h3>
-
-                    <div class="primary-text-color tw-text-3xl">
-                        +123 232 123
-                    </div>
+        
+                <!-- Call to Action Section -->
+                <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-2 tw-text-center">
+                    <h3 class="tw-text-xl text-white">For Immediate Assistance</h3>
+                    <div class="text-gold tw-text-3xl">+251 96 008 6888</div>
                 </div>
+            </div>
             </div>
         </section>
 
