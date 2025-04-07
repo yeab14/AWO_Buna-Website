@@ -1,0 +1,33 @@
+{
+    "name": "landing-pages",
+    "version": "1.0.0",
+    "description": "Beautiful landing pages",
+    "main": "index.js",
+    "scripts": {
+        "start:tailwind": "cross-env NODE_ENV=development tailwindcss --postcss -i tailwind.css -o tailwind-runtime.css -w",
+        "build:tailwind": "cross-env NODE_ENV=production tailwindcss --postcss -i tailwind.css -o tailwind-build.css --minify",
+        "serve": "live-server --open=index.html --watch=.",
+        "dev": "concurrently \"npm run start:tailwind\" \"npm run serve\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "landing",
+        "pages",
+        "motion",
+        "design",
+        "websites"
+    ],
+    "author": "Paul",
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "concurrently": "^8.2.2",
+        "cross-env": "^7.0.3",
+        "live-server": "^1.2.2",
+        "tailwindcss": "^3.4.1"
+    },
+    "dependencies": {
+        "postcss": "^8.4.33",
+        "postcss-simple-vars": "^7.0.1"
+    }
+}
