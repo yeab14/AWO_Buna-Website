@@ -9,7 +9,7 @@
         <title>Awo Coffee | Premium Ethiopian Coffee, Rich Flavor & Tradition</title>
         <meta name="description" content="Discover the bold, smooth flavor of Awo Coffee, handcrafted from Ethiopia’s finest sun-kissed beans. Experience the essence of Ethiopian coffee culture with every sip." />
         
-        <!-- Open Graph Meta Tags (Facebook, LinkedIn, etc.) -->
+ 
         <meta property="og:title" content="Awo Coffee - Premium Ethiopian Coffee | Rich Flavor & Tradition" />
         <meta property="og:description" content="Handcrafted from Ethiopia’s finest beans, Awo Coffee offers a bold, smooth flavor that embodies the essence of Ethiopian coffee culture. Perfect for coffee lovers who appreciate authenticity and quality." />
         <meta property="og:type" content="website" />
@@ -56,9 +56,10 @@
     <body
         class="tw-flex tw-min-h-[100vh] tw-w-full tw-flex-col tw-text-white tw-bg-[#000]"
     >
-        <header
-            class="tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-px-[10%] max-md:tw-mr-auto md:tw-justify-around tw-mt-6"
-        >
+    <header
+    class="tw-top-0 tw-z-20 tw-flex tw-h-[200px] tw-w-full tw-px-[10%] max-md:tw-mr-auto md:tw-justify-around tw-mt-4 -tw-mb-4"
+    style="background: linear-gradient(to right, #000000 35%, #2D1B0E);"
+>
 
         <div class="tw-h-[50px] tw-w-[250px] tw-p-[4px] tw-text-primary tw-text-2xl tw-font-bold tw-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-tracking-wide tw-uppercase tw-border-2 tw-border-primary tw-rounded-md tw-shadow-md tw-bg-white/5 backdrop-blur-sm mt-6">
             AWO Coffee
@@ -75,7 +76,7 @@
                 >
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Home</a>
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">About Us</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Menu</a>
+                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Packages</a>
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Order Online</a>
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Contact</a>
                 </div>
@@ -113,9 +114,10 @@
         </header>
 
         <section
-            class="tw-relative tw-flex  tw-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-h-[100dvh]  tw-ml-[260px]"
-            id="hero-section"
-        >
+        class="tw-relative tw-flex tw-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-h-[100dvh] tw-ml-[260px] -tw-mt-10"
+        id="hero-section"
+    >
+    
            
             <div class="tw-flex max-lg:tw-flex-col tw-gap-2 tw-p-2 tw-w-full tw-h-full tw-ml-[260px]">
                 <div
@@ -123,15 +125,25 @@
                      tw-place-content-center tw-place-items-center 
                      tw-gap-4 tw-p-2 tw-text-white tw-ml-32" 
             >   
-            <div class="tw-flex tw-flex-col tw-w-fit max-lg:tw-place-items-center tw-gap-4 tw-ml-[80px]"> <!-- Adjusted margin-left -->
-                <h1 class="tw-text-7xl max-lg:tw-leading-relaxed tw-font-semibold max-md:tw-text-center max-md:tw-text-5xl"
-                    style="font-family: 'Playfair Display', serif;">
-                    Awaken Your Senses with 
-                    Awo's Premium Ethiopian Coffee
-                </h1>
+            <div class="tw-flex tw-flex-col tw-w-fit max-lg:tw-place-items-center tw-gap-4 tw-ml-[80px]"> 
+                <div class="tw-flex tw-flex-col tw-w-fit max-lg:tw-place-items-center tw-gap-4 tw-ml-[80px]"> 
+                    <h1 class="tw-text-7xl max-lg:tw-leading-relaxed tw-font-semibold max-md:tw-text-center max-md:tw-text-5xl"
+                        style="font-family: 'Playfair Display', serif;">
+                        Premium Ethiopian Coffee from, <br>
+                        <span style="display: inline-flex; align-items: center;">
+                            Seed to 
+                            <img src="./assets/images/homepage/coff.png" alt="coffee" style="width: 1.8em; height: 1.4em; vertical-align: middle;"/>
+                        </span>
+                    </h1>
+                </div>
+                
+        
+            
                 <p class="tw-max-w-[500px] max-lg:tw-text-8xl max-md:tw-text-8xl lg:tw-text-9xl max-lg:tw-text-center" style="font-family: 'Merriweather', serif; font-style: italic;">
-                    Savor the warmth of Ethiopia in every sip. Awo Coffee is crafted from the finest sun-kissed beans, bringing you a bold, smooth flavor that tells the story of Ethiopia’s rich coffee culture. Let the aroma take you on a journey—one sip and you'll experience the unforgettable taste of tradition.
+                    Taste the soul of Ethiopia in every cup. AWO Coffee is crafted from the finest beans, offering a rich, smooth flavor that tells the timeless story of Ethiopia’s coffee heritage. Let the enchanting aroma transport you to the heart of tradition, where every sip whispers of quality and passion!
                 </p>
+                
+                
                 
                 
                 
@@ -153,11 +165,12 @@
             
 
             <div class="tw-flex tw-justify-center tw-items-center tw-w-full tw-h-full tw-bg-black tw-py-16">
-                <div class="tw-relative tw-max-w-[80vw] tw-w-full tw-overflow-hidden tw-rounded-xl tw-shadow-xl">
+
+                <div class="tw-relative tw-max-w-[vw] tw-w-full tw-overflow-hidden tw-rounded-xl tw-shadow-xl">
                     <img src="./assets/images/homepage/AWOBUNA.jpg" 
                          alt="Awo Coffee product" 
                          class="tw-object-cover tw-w-full tw-h-full tw-transition-all tw-duration-700 hover:tw-scale-110 hover:tw-rotate-3 hover:tw-opacity-90 tw-rounded-xl" />
-                    <div class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-bg-black tw-opacity-50 tw-rounded-xl"></div>
+                    <div class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-bg-black/120 tw-rounded-xl"></div>
                 </div>
             </div>
             
@@ -191,17 +204,11 @@
     
             <div class="tw-mt-6 tw-max-w-[550px] tw-text-justify tw-text-white tw-mx-auto tw-text-lg tw-opacity-80 tw-leading-relaxed">
                 <p class="tw-max-w-[500px] max-lg:tw-text-8xl max-md:tw-text-8xl lg:tw-text-9xl max-lg:tw-text-center" style="font-family: 'Merriweather', serif; font-style: italic;">
-                    At Awo Coffee, we believe in more than just brewing coffee — it's about crafting an experience. 
-                    Handcrafted from the finest, sun-kissed beans, every cup carries the essence of Ethiopia’s rich 
-                    coffee culture. From the moment you take your first sip, you’re transported to the birthplace of coffee, 
-                    where tradition meets innovation, and where every bean tells a story.
-                </p>
+                    AWO Coffee Company is an Ethiopian enterprise focused on cultivating, roasting, and exporting high-quality specialty coffee. With a blend of traditional farming and modern quality control, AWO offers premium Arabica beans to global wholesale clients, ensuring sustainability and exceptional flavor.
     
           
                 <p class="tw-max-w-[500px] tw-mt-4 max-lg:tw-text-8xl max-md:tw-text-8xl lg:tw-text-9xl max-lg:tw-text-center" style="font-family: 'Merriweather', serif; font-style: italic;">
-                    Our journey begins in the lush, green highlands of Ethiopia, where generations have perfected the art of 
-                    coffee growing. At Awo Coffee, we bring this legacy to your cup, offering you a premium, aromatic blend 
-                    that is bold, smooth, and unforgettable.
+                    AWO’s farms are located in Ethiopia’s renowned coffee regions, including Yirgacheffe, Bonga Kafa, and Bench Maji. These areas produce unique coffees with vibrant floral notes, tropical fruit flavors, and the famous Gesha variety, prized for its elegance and complexity.
                 </p>
             </div>
     
@@ -210,104 +217,84 @@
     </section>
     
 
-        <section
-            class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center  tw-p-[5%] max-md:tw-px-[5%]"
-        >
-            <h2 class="tw-text-xl tw-italic">
-                Discover Authentic English Flavours
-            </h2>
-            <h3 class="primary-text-color tw-text-4xl tw-font-semibold">
-                Diners Favorite
-            </h3>
-
-            <div
-                class="tw-mt-[5%] tw-flex tw-w-full tw-place-content-center tw-gap-5 max-md:tw-flex-wrap"
-            >
-                <div
-                    class="tw-flex tw-max-w-[650px] tw-flex-col tw-gap-8 "
-                >
-                    <div class="tw-flex tw-gap-10 max-md:tw-flex-col max-md:tw-place-items-center">
-                        <div class="tw-w-[180px] tw-h-[180px] tw-overflow-hidden tw-rounded-md">
-                            <img
-                                src="./assets/images/homepage/coffee.jpg"
-                                alt="authentic wine"
-                                class="tw-h-full tw-w-full tw-object-cover tw-transition-[scale] tw-duration-[0.4s]"
-                            />
-                        </div>
-                        <div class="tw-flex tw-flex-col tw-gap-2 max-md:tw-place-items-center 
-                                    tw-max-w-[300px]">
-                            <h3 class="tw-text-2xl tw-font-semibold">Special chinese coffee</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, adipisci.
-                            </p>
-                            <div class="tw-mt-2 tw-text-primary">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </div>
-                            <a href="http://" class="btn tw-mt-auto">
-                                Order now
-                            </a>
-                        </div>
-                    </div>
-                    <div class="tw-flex tw-gap-10 max-md:tw-flex-col max-md:tw-place-items-center">
-                        <div class="tw-w-[180px] tw-h-[180px] tw-overflow-hidden tw-rounded-md">
-                            <img
-                                src="./assets/images/homepage/breakfast.jpg"
-                                alt="authentic wine"
-                                class="tw-h-full tw-w-full tw-object-cover tw-transition-[scale] tw-duration-[0.4s]"
-                            />
-                        </div>
-                        <div class="tw-flex tw-flex-col tw-max-w-[300px] tw-gap-2  max-md:tw-place-items-center">
-                            <h3 class="tw-text-2xl tw-font-semibold">Bacon and Eggs</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, adipisci.
-                            </p>
-                            <div class="tw-mt-2 tw-text-primary">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </div>
-                            <a href="http://" class="btn tw-mt-auto">
-                                Order now
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="tw-flex tw-gap-10 max-md:tw-flex-col max-md:tw-place-items-center">
-                        <div class="tw-w-[180px] tw-h-[180px] tw-overflow-hidden tw-rounded-md">
-                            <img
-                                src="./assets/images/homepage/dessert.jpg"
-                                alt="authentic wine"
-                                class="tw-h-full tw-w-full tw-object-cover tw-transition-[scale] tw-duration-[0.4s]"
-                            />
-                        </div>
-                        <div class="tw-flex tw-flex-col tw-gap-2 tw-max-w-[300px] max-md:tw-place-items-center">
-                            <h3 class="tw-text-2xl tw-font-semibold">Red pastry</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, adipisci.
-                            </p>
-                            <div class="tw-mt-2 tw-text-primary">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </div>
-                            <a href="http://" class="btn tw-mt-auto">
-                                Order now
-                            </a>
-                        </div>
-                    </div>
-                   
+    <section class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-[5%] max-md:tw-px-[5%]">
+        <h2 class="tw-text-xl tw-italic tw-text-black">Exclusive Packaging & Pricing</h2>
+        <h3 class="primary-text-color tw-text-4xl tw-font-semibold tw-text-black">Premium Packages</h3>
+    
+        <div class="tw-mt-[5%] tw-flex tw-w-full tw-place-content-center tw-gap-10 max-md:tw-flex-wrap">
+            <!-- Card 1 -->
+            <div class="tw-flex tw-w-[350px] tw-h-full tw-flex-col tw-bg-black tw-text-white tw-rounded-lg tw-shadow-lg tw-p-4 tw-overflow-hidden hover:tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300" style="border: 4px solid var(--primary-text-color);">
+                <div class="tw-flex tw-w-full tw-h-[500px] tw-overflow-hidden tw-rounded-md tw-mb-4">
+                    <img
+                        src="./assets/images/homepage/card1.jpg"
+                        alt="Premium Ethiopian Coffee - 250g"
+                        class="tw-w-full tw-h-full tw-object-cover"
+                    />
                 </div>
-                
+                <div class="tw-flex tw-flex-col tw-gap-4">
+                    <h3 class="tw-text-2xl tw-font-semibold tw-text-gold">Premium Ethiopian Coffee – 250g</h3>
+                    <p class="tw-text-lg tw-text-white">
+                        This 250g pack offers a perfect balance for daily coffee lovers — enough for 15–20 cups. Sourced from Ethiopia’s highland farms, it delivers a smooth, rich flavor profile with floral notes and a chocolatey finish.
+                    </p>
+                    <div class="tw-flex tw-gap-2">
+                        <span class="tw-text-3xl tw-font-semibold tw-text-gold">375 Birr</span>
+                    </div>
+                </div>
             </div>
-        </section>
+            
+            
+            
+    
+            <!-- Card 2 -->
+            <div class="tw-flex tw-w-[350px] tw-h-full tw-flex-col tw-bg-black tw-text-white tw-rounded-lg tw-shadow-lg tw-p-4 tw-overflow-hidden hover:tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300" style="border: 4px solid var(--primary-text-color);">
+                <div class="tw-flex tw-w-full tw-h-[500px] tw-overflow-hidden tw-rounded-md tw-mb-4">
+                    <img
+                        src="./assets/images/homepage/card2.jpg"
+                        alt="Premium Ethiopian Coffee - 500g"
+                        class="tw-w-full tw-h-full tw-object-cover"
+                    />
+                </div>
+                <div class="tw-flex tw-flex-col tw-gap-4">
+                    <h3 class="tw-text-2xl tw-font-semibold tw-text-gold">Premium Ethiopian Coffee – 500g</h3>
+                    <p class="tw-text-lg tw-text-white">
+                        Ideal for households or serious coffee drinkers, this 500g pack brews up to 35–40 rich, aromatic cups. Grown in Ethiopia’s finest high-altitude regions, it boasts bold body, vibrant acidity, and complex notes of citrus, jasmine, and cocoa.
+                    </p>
+                    <div class="tw-flex tw-gap-2">
+                        <span class="tw-text-3xl tw-font-semibold tw-text-gold">700 Birr</span>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <!-- Card 3 -->
+            <div class="tw-flex tw-w-[350px] tw-h-full tw-flex-col tw-bg-black tw-text-white tw-rounded-lg tw-shadow-lg tw-p-4 tw-overflow-hidden hover:tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300">
+                <div class="tw-flex tw-w-full tw-h-[500px] tw-overflow-hidden tw-rounded-md tw-mb-4 tw-border-4 tw-border-gold">
+                    <img
+                        src="./assets/images/homepage/dessert.jpg"
+                        alt="dessert package"
+                        class="tw-w-full tw-h-full tw-object-cover"
+                    />
+                </div>
+                <div class="tw-flex tw-flex-col tw-gap-4">
+                    <h3 class="tw-text-2xl tw-font-semibold tw-text-gold">Red Pastry Delight</h3>
+                    <p class="tw-text-lg tw-text-white">A selection of delicious pastries perfect for an afternoon treat.</p>
+                    <div class="tw-flex tw-gap-2">
+                        <span class="tw-text-lg tw-font-semibold tw-text-gold">$19.99</span>
+                        <span class="tw-text-sm tw-line-through tw-text-gray-500">$29.99</span>
+                    </div>
+                    <div class="tw-mt-auto tw-text-gold">
+                        <a href="http://" class="tw-font-medium tw-py-2 tw-px-6 tw-bg-gold tw-text-black tw-rounded-full tw-transition-all hover:tw-bg-black hover:tw-text-gold tw-shadow-md">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+
+        </div>
+    </section>
+    
+    
 
         <section
             class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center  tw-p-[5%] max-md:tw-px-[5%]"
