@@ -1,40 +1,49 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Character Encoding & Viewport Settings -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <title>AWO Coffee</title>
-        <meta
-            name="description"
-            content=""
-        />
-
-        <meta name="twitter:title" content="" />
-        <meta name="twitter:description" content=" " />
-
-        <!-- Open Graph / Facebook -->
-        <meta property="og:title" content="Title of the project" />
-        <meta property="og:description" content="" />
+    
+        <!-- SEO Meta Tags -->
+        <title>Awo Coffee | Premium Ethiopian Coffee, Rich Flavor & Tradition</title>
+        <meta name="description" content="Discover the bold, smooth flavor of Awo Coffee, handcrafted from Ethiopia’s finest sun-kissed beans. Experience the essence of Ethiopian coffee culture with every sip." />
+        
+        <!-- Open Graph Meta Tags (Facebook, LinkedIn, etc.) -->
+        <meta property="og:title" content="Awo Coffee - Premium Ethiopian Coffee | Rich Flavor & Tradition" />
+        <meta property="og:description" content="Handcrafted from Ethiopia’s finest beans, Awo Coffee offers a bold, smooth flavor that embodies the essence of Ethiopian coffee culture. Perfect for coffee lovers who appreciate authenticity and quality." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://github.com/PaulleDemon" />
-        <!--Replace with the current website url-->
-        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://your-website-url.com" />
+        <meta property="og:image" content="https://your-website-url.com/assets/images/hero-image.jpg" />
+        <meta property="og:site_name" content="Awo Coffee" />
+    
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:title" content="Awo Coffee - Premium Ethiopian Coffee | Rich Flavor & Tradition" />
+        <meta name="twitter:description" content="Discover Awo Coffee’s bold, smooth flavor, crafted from the finest beans in Ethiopia. Savor the tradition with every cup." />
+        <meta name="twitter:image" content="https://your-website-url.com/assets/images/hero-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+    
+        <!-- Structured Data for SEO (JSON-LD) -->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "Awo Coffee",
+                "url": "https://your-website-url.com",
+                "logo": "https://your-website-url.com/assets/logo.png",
+                "sameAs": [
+                    "https://www.facebook.com/AwoCoffee",
+                    "https://www.instagram.com/AwoCoffee",
+                    "https://twitter.com/AwoCoffee"
+                ]
+            }
+        </script>
+    
 
-        <link
-            rel="shortcut icon"
-            href="./assets/logo.png"
-            type="image/x-icon"
-        />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-        />
-
-        <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css"> -->
+        <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" />
         <link rel="stylesheet" href="./css/tailwind-build.css" />
         <link rel="stylesheet" href="./css/index.css" />
-
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
@@ -43,7 +52,7 @@
             referrerpolicy="no-referrer"
         />
     </head>
-
+    
     <body
         class="tw-flex tw-min-h-[100vh] tw-w-full tw-flex-col tw-text-white tw-bg-[#000]"
     >
@@ -65,8 +74,8 @@
                     class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-white max-md:tw-mt-[30px] max-md:tw-flex-col max-md:tw-place-items-end max-md:tw-gap-5 md:tw-mx-auto md:tw-place-items-center"
                 >
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Home</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Menu</a>
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">About Us</a>
+                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Menu</a>
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Order Online</a>
                     <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Contact</a>
                 </div>
@@ -100,50 +109,57 @@
                 aria-label="menu"
                 id="collapse-btn"
             >
-                <!-- <i class="bi bi-list"></i> -->
             </button>
         </header>
 
         <section
-            class="tw-relative tw-flex  tw-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-h-[100dvh]"
+            class="tw-relative tw-flex  tw-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-h-[100dvh]  tw-ml-[260px]"
             id="hero-section"
         >
            
-            <div class="tw-flex max-lg:tw-flex-col tw-gap-2 tw-p-2 tw-w-full tw-h-full">
+            <div class="tw-flex max-lg:tw-flex-col tw-gap-2 tw-p-2 tw-w-full tw-h-full tw-ml-[260px]">
                 <div
-                    class="tw-flex tw-w-full lg:tw-max-w-[50vw] tw-h-full tw-flex-col
-                             tw-place-content-center tw-place-items-center 
-                            tw-gap-4 tw-p-2 tw-text-white"
-                >   
-                <div class="tw-flex tw-flex-col tw-w-fit max-lg:tw-place-items-center tw-gap-4">
-                    <h1 class="tw-text-7xl max-lg:tw-leading-relaxed tw-font-semibold max-md:tw-text-center max-md:tw-text-5xl">
-                        Awaken Your Senses with <br>
-                        Awo's Premium Ethiopian Coffee
-                    </h1>
-                    <p class="tw-max-w-[400px] max-lg:tw-text-center">
-                        Handcrafted from the finest, sun-kissed beans, Awo Coffee offers a bold, rich flavor that carries the essence of Ethiopia’s rich coffee culture. Savor the aroma that takes you on a journey through the birthplace of coffee. Bold, smooth, and unforgettable—sip by sip, experience a taste like no other.
-                    </p>
-                    <a
-                        href="https://"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        class="tw-flex tw-rounded-sm tw-bg-secondary tw-text-medium tw-p-3 
-                               tw-px-[20px] tw-w-fit tw-text-white tw-transition-colors tw-duration-[0.3s] 
-                               hover:tw-bg-primary hover:tw-text-black"
-                    >
-                        Discover Your Perfect Brew
-                    </a>
-                </div>
+                class="tw-flex tw-w-full lg:tw-max-w-[50vw] tw-h-full tw-flex-col
+                     tw-place-content-center tw-place-items-center 
+                     tw-gap-4 tw-p-2 tw-text-white tw-ml-32" 
+            >   
+            <div class="tw-flex tw-flex-col tw-w-fit max-lg:tw-place-items-center tw-gap-4 tw-ml-[80px]"> <!-- Adjusted margin-left -->
+                <h1 class="tw-text-7xl max-lg:tw-leading-relaxed tw-font-semibold max-md:tw-text-center max-md:tw-text-5xl"
+                    style="font-family: 'Playfair Display', serif;">
+                    Awaken Your Senses with 
+                    Awo's Premium Ethiopian Coffee
+                </h1>
+                <p class="tw-max-w-[500px] max-lg:tw-text-7xl max-md:tw-text-7xl lg:tw-text-8xl max-lg:tw-text-center" style="font-family: 'Merriweather', serif; font-style: italic;">
+                    Savor the warmth of Ethiopia in every sip. Awo Coffee is crafted from the finest sun-kissed beans, bringing you a bold, smooth flavor that tells the story of Ethiopia’s rich coffee culture. Let the aroma take you on a journey—one sip and you'll experience the unforgettable taste of tradition.
+                </p>
                 
-                </div>
+                
+                
+                
+                <a
+                    href="https://"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="tw-flex tw-rounded-sm tw-bg-secondary tw-text-medium tw-p-3 
+                           tw-px-[20px] tw-w-fit tw-text-white tw-transition-colors tw-duration-[0.3s] 
+                           hover:tw-bg-primary hover:tw-text-black"
+                >
+                    Discover Your Perfect Brew
+                </a>
+            </div>
+            
+            </div>
+            
 
-                <div class="tw-flex tw-place-content-center tw-place-items-center tw-w-full lg:tw-max-w-[50vw]">
-                    <div class="tw-max-w-[560px] tw-w-full">
-                        <img src="./assets/images/homepage/pizza.png" 
-                                alt="food" 
-                                class="tw-object-contain tw-w-full tw-h-full">
-                    </div>
+            <div class="tw-flex tw-justify-center tw-items-center tw-w-full tw-h-full tw-bg-black tw-py-16">
+                <div class="tw-relative tw-max-w-[80vw] tw-w-full tw-overflow-hidden tw-rounded-xl tw-shadow-xl">
+                    <img src="./assets/images/homepage/AWOBUNA.jpg" 
+                         alt="Awo Coffee product" 
+                         class="tw-object-cover tw-w-full tw-h-full tw-transition-all tw-duration-700 hover:tw-scale-110 hover:tw-rotate-3 hover:tw-opacity-90 tw-rounded-xl" />
+                    <div class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-bg-black tw-opacity-50 tw-rounded-xl"></div>
                 </div>
+            </div>
+            
             </div>
 
             
