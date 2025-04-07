@@ -37,6 +37,7 @@ header > .collapsible-header{
     width: 100%;
     background-color: inherit;
     place-content: center;
+    margin-left: 30vh;
     overflow: hidden;
     transition: width 0.3s ease;
 }
