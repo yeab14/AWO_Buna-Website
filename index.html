@@ -74,12 +74,13 @@
                 <div
                     class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-white max-md:tw-mt-[30px] max-md:tw-flex-col max-md:tw-place-items-end max-md:tw-gap-5 md:tw-mx-auto md:tw-place-items-center"
                 >
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Home</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">About Us</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Packages</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#culture-section">Our Culture</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Order Online</a>
-                    <a class="header-links hover:tw-text-secondary transition-all duration-300" href="">Contact</a>
+                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#hero-section">Home</a>
+                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#about">About Us</a>
+                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#packaging">Packages</a>
+                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#culture">Our Culture</a>
+                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#orderonline">Order Online</a>
+                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#contact">Contact</a>
+                
                 </div>
                 <div
                     class="tw-flex tw-place-items-center tw-gap-[20px] tw-text-xl max-md:tw-w-full max-md:tw-place-content-center max-md:!tw-text-white"
@@ -180,7 +181,8 @@
 
         <section
         class="tw-flex tw-mt-8 tw-min-h-[80vh] tw-w-full tw-place-content-center tw-place-items-center tw-gap-[10%] tw-p-4 tw-px-[20%] max-md:tw-flex-col max-md:tw-gap-[4%] max-md:tw-px-[5%]"
-    >
+        id="about"
+        >
         <div
             class="tw-flex tw-h-[350px] tw-w-full tw-overflow-hidden tw-rounded-md max-md:tw-mt-[5%] max-md:tw-h-[300px] max-md:tw-w-full tw-relative"
         >
@@ -215,7 +217,10 @@
     </section>
     
 
-    <section class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-[5%] max-md:tw-px-[5%]">
+    
+    <section 
+    id="packaging"
+    class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-[5%] max-md:tw-px-[5%]">
         <h2 class="tw-text-xl tw-italic tw-text-black">Exclusive Packaging & Pricing</h2>
         <h3 class="primary-text-color tw-text-4xl tw-font-semibold tw-text-black">Premium Packages</h3>
     
@@ -291,7 +296,9 @@
     </section>
     
     
-    <section class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-[5%] max-md:tw-px-[5%]">
+    <section
+    id="culture"
+    class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-[5%] max-md:tw-px-[5%]">
         <h3 class="primary-text-color tw-text-4xl tw-font-semibold">
             Explore our Culture
         </h3>
@@ -332,7 +339,7 @@
 
         <section
             class="tw-flex tw-w-full tw-place-content-center tw-place-items-center tw-gap-[10%] tw-overflow-hidden tw-p-4 tw-px-[10%] max-md:tw-flex-col tw-mt-5"
-            id="reservation"
+            id="orderonline"
         >
             <div
                 class="tw-flex tw-h-[350px] tw-w-[350px] tw-overflow-hidden tw-rounded-md max-md:tw-hidden"
@@ -531,6 +538,7 @@
 
 
           <footer
+          id="contact"
           class="tw-w-full tw-p-[5%] tw-px-[10%] tw-text-white"
           style="background: linear-gradient(to right, #000000 35%, #2D1B0E);"
       >
@@ -575,14 +583,15 @@
               </div>
   
               <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-                  <h2 class="tw-text-3xl max-md:tw-text-xl">Menu</h2>
-                  <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                      <a href="" class="footer-link">Breakfast menu</a>
-                      <a href="" class="footer-link">Lunch menu</a>
-                      <a href="" class="footer-link">Dessert menu</a>
-                      <a href="" class="footer-link">Drinks menu</a>
-                  </div>
-              </div>
+                <h2 class="tw-text-3xl max-md:tw-text-xl">Our Partners</h2>
+                <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
+                    <a href="https://awotechnology.netlify.app/" class="footer-link" target="_blank" rel="noopener noreferrer">AWO Technology</a>
+                    <a href="https://etbuy.et/" class="footer-link" target="_blank" rel="noopener noreferrer">EtBuy</a>
+                    <a href="https://port.et/" class="footer-link" target="_blank" rel="noopener noreferrer">Port Et</a>
+                    <a href="https://nanadeliver.com/" class="footer-link" target="_blank" rel="noopener noreferrer">Nana Delivery</a>
+                </div>
+            </div>
+            
               <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
                   <h2 class="tw-text-3xl max-md:tw-text-xl">Resources</h2>
                   <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
@@ -605,7 +614,7 @@
               document.getElementById('copyright').innerHTML = `&copy; ${currentYear} AWO Coffee. All rights reserved.`;
           });
       </script>
-      
+
     </body>
 
     <script
