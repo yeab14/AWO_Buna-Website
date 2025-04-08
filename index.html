@@ -54,58 +54,41 @@
     </head>
     
     <body
-        class="tw-flex tw-min-h-[100vh] tw-w-full tw-flex-col tw-text-white tw-bg-[#000]"
+        class="tw-flex tw-min-h-[150vh] tw-w-full tw-flex-col tw-text-white tw-bg-[#000]"
     >
     <header
-    class="tw-top-0 tw-z-20 tw-flex tw-h-[200px] tw-w-full tw-px-[10%] max-md:tw-mr-auto md:tw-justify-around tw-mt-4 -tw-mb-4"
+    class="tw-top-0 tw-z-20 tw-flex tw-h-[300px] tw-w-full tw-px-[10%] max-md:tw-mr-auto md:tw-justify-around tw-mt-4 -tw-mb-4"
     style="background: linear-gradient(to right, #000000 35%, #2D1B0E);"
 >
 
-        <div class="tw-h-[50px] tw-w-[250px] tw-p-[4px] tw-text-primary tw-text-2xl tw-font-bold tw-flex tw-items-center tw-justify-center tw-whitespace-nowrap tw-tracking-wide tw-uppercase tw-border-2 tw-border-primary tw-rounded-md tw-shadow-md tw-bg-white/5 backdrop-blur-sm mt-6">
-            AWO Coffee
+<div class="tw-h-[60px] tw-w-[150px] tw-p-[4px] tw-flex tw-items-center tw-justify-center tw-border-2 tw-border-primary tw-rounded-md tw-shadow-md tw-bg-white/5 backdrop-blur-sm mt-6">
+    <img src="./assets/logo/AWOCoffeeLogo.png" alt="AWO Coffee Logo" class="tw-h-full tw-max-h-[40px] tw-object-contain" />
+</div>
+
+        
+        <div
+        class="collapsible-header animated-collapse"
+        id="collapsed-items"
+    >
+        <div
+            class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-white max-md:tw-mt-[30px] max-md:tw-flex-col max-md:tw-place-items-start max-md:tw-gap-5 md:tw-ml-[20px] md:tw-place-items-start"
+        >
+            <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#hero-section">Home</a>
+            <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#about">About Us</a>
+            <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#packaging">Packages</a>
+            <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#culture">Our Culture</a>
+            <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#orderonline">Order Online</a>
+            <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#contact">Contact</a>
         </div>
-        
+    </div>
 
-        
-            <div
-                class="collapsible-header animated-collapse"
-                id="collapsed-items"
-            >
-                <div
-                    class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-white max-md:tw-mt-[30px] max-md:tw-flex-col max-md:tw-place-items-end max-md:tw-gap-5 md:tw-mx-auto md:tw-place-items-center"
-                >
-                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#hero-section">Home</a>
-                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#about">About Us</a>
-                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#packaging">Packages</a>
-                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#culture">Our Culture</a>
-                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#orderonline">Order Online</a>
-                <a class="header-links hover:tw-text-secondary transition-all duration-300" href="#contact">Contact</a>
-                
+            <div class="relative w-full h-screen">
+                <div class="absolute top-4 right-4 z-50">
+                  <div id="google_translate_element"></div>
                 </div>
-                <div
-                    class="tw-flex tw-place-items-center tw-gap-[20px] tw-text-xl max-md:tw-w-full max-md:tw-place-content-center max-md:!tw-text-white"
-                >
-                    <a
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        area-label="facebook"
-                        class="header-links tw-transition-colors tw-duration-[0.3s]"
-                    >
-                        <i class="bi bi-facebook"></i>
-                    </a>
+              </div>
 
-                    <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                        area-label="twitter"
-                        class="header-links tw-transition-colors tw-duration-[0.3s]"
-                    >
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
-            </div>
+              
             <button
                 class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-white md:tw-hidden"
                 onclick="toggleHeader()"
@@ -113,6 +96,18 @@
                 id="collapse-btn"
             >
             </button>
+
+
+             <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         </header>
 
         <section
@@ -239,9 +234,6 @@
                     <p class="tw-text-lg tw-text-white">
                         This 250g pack offers a perfect balance for daily coffee lovers — enough for 15–20 cups. Sourced from Ethiopia’s highland farms, it delivers a smooth, rich flavor profile with floral notes and a chocolatey finish.
                     </p>
-                    <div class="tw-flex tw-gap-2">
-                        <span class="tw-text-3xl tw-font-semibold tw-text-gold">375 Birr</span>
-                    </div>
                 </div>
             </div>
             
@@ -262,9 +254,6 @@
                     <p class="tw-text-lg tw-text-white">
                         Ideal for households or serious coffee drinkers, this 500g pack brews up to 35–40 rich, aromatic cups. Grown in Ethiopia’s finest high-altitude regions, it boasts bold body, vibrant acidity, and complex notes of citrus, jasmine, and cocoa.
                     </p>
-                    <div class="tw-flex tw-gap-2">
-                        <span class="tw-text-3xl tw-font-semibold tw-text-gold">700 Birr</span>
-                    </div>
                 </div>
             </div>
             
@@ -284,9 +273,6 @@
         <p class="tw-text-lg tw-text-white">
             Perfect for large households or coffee lovers who want to stock up, this 1000g pack brews up to 70–80 cups of rich, aromatic coffee. Sourced from Ethiopia’s highlands, it offers a full-bodied flavor with vibrant acidity, floral notes, and a lingering cocoa finish.
         </p>
-        <div class="tw-flex tw-gap-2">
-            <span class="tw-text-3xl tw-font-semibold tw-text-gold">1300 Birr</span>
-        </div>
     </div>
 </div>
 
@@ -546,9 +532,9 @@
               <div
                   class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full"
               >
-                  <h3 class="tw-text-primary tw-text-4xl tw-font-semibold">
-                      AWO Coffee
-                  </h3>
+              <div class="tw-h-[60px] tw-w-[150px] tw-p-[4px] tw-flex tw-items-center tw-justify-center tw-border-2 tw-border-primary tw-rounded-md tw-shadow-md tw-bg-white/5 backdrop-blur-sm mt-6">
+                <img src="./assets/logo/AWOCoffeeLogo.png" alt="AWO Coffee Logo" class="tw-h-full tw-max-h-[40px] tw-object-contain" />
+            </div>
                   <div>
                       NB Business Center, 
                       <br />
@@ -633,5 +619,5 @@
     <script src="./scripts/utils.js"></script>
     <script src="./index.js"></script>
 
-    <!-- https://github.com/PaulleDemon -->
+
 </html>
