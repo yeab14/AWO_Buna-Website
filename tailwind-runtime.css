@@ -703,16 +703,12 @@ video {
   height: 100vh;
 }
 
-.tw-h-\[200px\] {
-  height: 200px;
-}
-
 .tw-h-\[250px\] {
   height: 250px;
 }
 
-.tw-h-\[25px\] {
-  height: 25px;
+.tw-h-\[300px\] {
+  height: 300px;
 }
 
 .tw-h-\[350px\] {
@@ -727,104 +723,32 @@ video {
   height: 500px;
 }
 
-.tw-h-auto {
-  height: auto;
+.tw-h-\[60px\] {
+  height: 60px;
 }
 
 .tw-h-full {
   height: 100%;
 }
 
-.tw-h-\[40px\] {
-  height: 40px;
-}
-
-.tw-h-\[65px\] {
-  height: 65px;
-}
-
-.tw-h-\[62px\] {
-  height: 62px;
-}
-
-.tw-h-\[60px\] {
-  height: 60px;
-}
-
-.tw-h-\[80px\] {
-  height: 80px;
-}
-
-.tw-h-\[80vh\] {
-  height: 80vh;
-}
-
-.tw-h-\[60vh\] {
-  height: 60vh;
-}
-
-.tw-h-\[75px\] {
-  height: 75px;
-}
-
-.tw-h-\[95px\] {
-  height: 95px;
-}
-
-.tw-h-\[35px\] {
-  height: 35px;
-}
-
-.tw-h-\[125px\] {
-  height: 125px;
-}
-
-.tw-h-\[300px\] {
-  height: 300px;
-}
-
-.tw-h-\[4\.0625rem\] {
-  height: 4.0625rem;
-}
-
-.tw-h-\[7\.8125rem\] {
-  height: 7.8125rem;
-}
-
-.tw-h-\[3\.5rem\] {
-  height: 3.5rem;
-}
-
-.tw-h-\[1\.5rem\] {
-  height: 1.5rem;
-}
-
-.tw-max-h-\[50px\] {
-  max-height: 50px;
-}
-
 .tw-max-h-\[40px\] {
   max-height: 40px;
-}
-
-.tw-min-h-\[100vh\] {
-  min-height: 100vh;
-}
-
-.tw-min-h-\[80vh\] {
-  min-height: 80vh;
 }
 
 .tw-min-h-\[150vh\] {
   min-height: 150vh;
 }
 
+.tw-min-h-\[80vh\] {
+  min-height: 80vh;
+}
+
 .tw-w-2 {
   width: 0.5rem;
 }
 
-.tw-w-\[100px\] {
-  width: 100px;
+.tw-w-\[150px\] {
+  width: 150px;
 }
 
 .tw-w-\[250px\] {
@@ -839,10 +763,6 @@ video {
   width: 80%;
 }
 
-.tw-w-auto {
-  width: auto;
-}
-
 .tw-w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -855,46 +775,6 @@ video {
 .tw-w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.tw-w-\[200px\] {
-  width: 200px;
-}
-
-.tw-w-\[80px\] {
-  width: 80px;
-}
-
-.tw-w-\[80vh\] {
-  width: 80vh;
-}
-
-.tw-w-\[60vh\] {
-  width: 60vh;
-}
-
-.tw-w-\[\] {
-  width: ;
-}
-
-.tw-w-\[60px\] {
-  width: 60px;
-}
-
-.tw-w-\[300px\] {
-  width: 300px;
-}
-
-.tw-w-\[18\.75rem\] {
-  width: 18.75rem;
-}
-
-.tw-w-\[5rem\] {
-  width: 5rem;
-}
-
-.tw-w-\[150px\] {
-  width: 150px;
 }
 
 .tw-max-w-\[100vw\] {
@@ -1103,10 +983,6 @@ video {
 
 .tw-p-\[5\%\] {
   padding: 5%;
-}
-
-.tw-p-\[0\.25rem\] {
-  padding: 0.25rem;
 }
 
 .tw-px-6 {
